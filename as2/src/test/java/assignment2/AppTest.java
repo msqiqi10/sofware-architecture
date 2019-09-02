@@ -9,15 +9,6 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
-
     @Test
     public void findMax_valid(){
         int[] input = {1,2,3,4,5};
