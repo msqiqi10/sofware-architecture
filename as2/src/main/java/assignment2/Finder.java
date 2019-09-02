@@ -4,14 +4,8 @@ package assignment2;
  * Hello world!
  *
  */
-public class App 
+public class Finder 
 {
-    public static void main( String[] args )
-    {
-        int[] input = null;
-        findMax(input);
-    }
-
     public static int findMax(int[] input){
         int max = input[0];
         for(int e : input){
